@@ -9,3 +9,5 @@ int main(){
     cout<<"You entered: "<<a<<endl;
     return 0;
 }
+// aur iska output hoga
+// Enter a number: 5
