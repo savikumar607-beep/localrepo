@@ -4,3 +4,18 @@ int main() {
     cout << "Hello, World!" << endl;
     return 0;
 }
+
+
+//variables use to store data 
+#include <iostream>
+//AUR JO YEH HAI PREPCOMPILER DIRECTIVE HAI JO KI INPUT OUTPUT STREAM KO INCLUDE KARTA HAI
+using namespace std;
+//AUR JO YEH HAI NAMESPACE HAI JO KI STANDARD LIBRARY KO USE KARNE KE LIYE HAI
+int main(){
+    //YAHA PAR VAIRABLES KA USE KIYA GAYA HAI AUR MEIN STORE KARNE KE LIYE USE KIYA GAYA HAI
+    int age =25;
+     //AUR COUT KA USE KIYA GAYA HAI PRINT KARNE KE LIYE
+    cout<<"my age is "<<age<<endl;
+
+    return 0;
+}
