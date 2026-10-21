@@ -20,6 +20,6 @@ int main(){
     int a = 10;
     int b = ++a;
     cout<< b << endl; //11
-    cout<< a << endl;
+    cout<< a << endl; //11
     return 0;
 }
