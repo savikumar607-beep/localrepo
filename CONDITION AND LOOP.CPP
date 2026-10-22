@@ -98,3 +98,15 @@ int main (){
         cout<< endl;
     }
 }
+
+// TERNARY OPERATOR KA USE KASE KARTE HAI
+// TERNARY OPERATOR : CONDITION ? TRUE : FALSE
+//iska bahut hi simple use hai
+// iska bahut kam use hota hai but iska use karna bahut hi easy hai
+#include <iostream>
+using namespace std;
+int main (){
+    int n= -45;
+    cout<<(n>=0 ? "Positive" : "Negative")<<endl;
+    return 0;
+}
