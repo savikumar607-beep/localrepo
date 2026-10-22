@@ -11,6 +11,21 @@ int main(){
     }
     return 0;
 } 
+// YAHA EK OR QUESTION FOR BETTER UNDERSTAND
+#include <iostream>
+using namespace std;
+int main (){
+    char ch;
+    cin>>ch;
+    if(ch>='a' && ch<='z'){
+        cout<<"Lowercase"<<endl;
+    }else if(ch>='A' && ch<='Z'){
+        cout<<"Uppercase"<<endl;
+    }else{
+        cout<<"Invalid input"<<endl;
+    }
+}
+
 
 // AUR YAHA PAR IF/ELSE IF AUR ELSE KASE KAAM KARTA HAI
 #include <iostream>
