@@ -56,3 +56,30 @@ int main (){
     }
     return 0;
 }
+
+// AUR 3RD LOOP KA USE KASE KARTE HAI
+// 3RD LOOP : DO WHILE LOOP HAI
+#include <iostream>
+using namespace std;
+int main (){
+    int n =5;
+    do{
+        cout<< n << endl;
+        n++;
+    }while(n<=5);
+    return 0;
+}
+
+// AUR 4TH LOOP KA USE KASE KARTE HAI
+// 4TH LOOP : NESTED LOOP HAI
+#include <iostream>
+using namespace std;
+int main (){
+    int n = 7;
+    for(int i = 1; i<=n; i++){
+        for(int j = 1; j<=i; j++){
+            cout<< "*";
+        }
+        cout<< endl;
+    }
+}
