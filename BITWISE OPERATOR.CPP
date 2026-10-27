@@ -75,3 +75,44 @@ return 0 ;
 
 // left shift ka mtlv hai a << b = ans = a*2b ke equal hota hi 
 // right shit ka mtlv hai a>> b = ans = a/2b ke equal hota hai 
+
+// precedence ka use 
+// Ex : - 
+#include <iostream>
+using namespace std; 
+int main(){
+    cout<< (5-2 )*6 << endl;
+    return 0;
+}
+
+// jab do same precedence wale * , % aye jaye to left  to right se karte hai 
+//  ans = 4*5%2 = 20%2 = 0 
+
+#include <iostream>
+using namespace std; 
+int main (){
+    cout<< (4*5%2) << endl ; // 0 ke equal ayega 
+    return 0 ;
+}
+
+// Scope 
+// local variable , global variable
+#include <iostream>
+using namespace std;
+int n = 10; // global variable hia 
+
+int main (){ 
+    // Aur Ye curly brace me hai wo scope hai last wala curly brace hai waha tak hoga 
+    int a = 4; // local variable hia 
+    cout<< a << endl; 
+    cout << n <<  endl;
+    return 0 ; 
+}
+
+// DATA TYPE MODIFIERS
+// change meaning of data types 
+//   long 
+//   short 
+//   long long 
+//   signed 
+//   unsigned
